@@ -1,0 +1,19 @@
+
+Example preliminary bridge case prediction
+
+Predicted bridge form family: girder_beam
+
+Prediction probabilities:
+Bridge form family  Predicted probability
+       girder_beam               0.998417
+       rigid_frame               0.000772
+              arch               0.000737
+             truss               0.000074
+
+Top five SHAP contributors for the predicted class:
+            Feature label  Input value  SHAP value
+        Design/build year       2025.0    0.639132
+     Number of main spans          3.0    0.393968
+     Structure length (m)         45.0    0.133618
+        Truck traffic (%)          8.0    0.116413
+Functional classification          9.0   -0.110925
